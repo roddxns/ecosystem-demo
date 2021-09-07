@@ -22,6 +22,3 @@ deploy:
     branch: master
   app: ecosystem-demo-rneri
 
-
-
-
