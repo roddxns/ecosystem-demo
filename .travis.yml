@@ -16,9 +16,8 @@ script:
   #DESPLIEGUE EN HEROKU
 deploy:
   provider: heroku
-  api_key:
-    secure: $HEROKU
-  on:
-    branch: master
-  app: ecosystem-demo-rneri
+  api_key: $HEROKU
+  app:
+    master: ecosystem-demo-rneri
+
 
